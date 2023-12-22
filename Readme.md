@@ -18,7 +18,7 @@ Now that you've generated a JWT and a list of potential keys, you're going to tr
 
 It will repeat this process until the signature generated matches the signature of the JWT, at which point you will have found the key used to generate the JWT and you will be able to generate JWTs yourself that will be validated by the server.
 
-Look at the code in the crack.ts file and then use it by running the npm run crack command.
+Look at the code in the `crack.ts` file and then use it by running the `npm run crack` command.
 
 You will see in the console all the attempts until the secret has been recovered.
 
