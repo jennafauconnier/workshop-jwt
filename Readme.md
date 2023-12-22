@@ -11,7 +11,7 @@ A new candidateKeys file has been created, containing all possible combinations 
 
 You can change the key generation criteria by modifying the `candidateKeysGenerator.ts` file if you wish.
 
-Run the npm `run gen-jwt` command to generate a JWT token yourself. Look at the jwt file that has been created. It consists of the header, payload and signature, encoded in base 64 and separated by dots.
+Run the `npm run gen-jwt` command to generate a JWT token yourself. Look at the jwt file that has been created. It consists of the header, payload and signature, encoded in base 64 and separated by dots.
 
 
 Now that you've generated a JWT and a list of potential keys, you're going to try and find the key that was used to generate the JWT. To do this, retrieve the header and payload of the generated JWT and generate a signature for each key in the list.
